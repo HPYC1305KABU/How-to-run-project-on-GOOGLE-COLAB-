@@ -12,13 +12,13 @@ Steps to run any type of Project(more than one program file in project) in GOOGL
 
 work in create file new_notebook.ipyb
 
-5th Command :: change the path of the directory = cd drive/MyDrive
+	Command :: change the path of the directory = cd drive/MyDrive
 
-    Command :: Unzip project file/folder = from zipfile import ZipFile 
-				       file_name = 'CSRNet-pytorch-master.zip'
-				       with ZipFile(file_name,'r') as zip :
-  				       	  zip.extractall()
-                                          print('Done') 
+    	Command :: Unzip project file/folder = from zipfile import ZipFile 
+				           	file_name = 'CSRNet-pytorch-master.zip'
+				           	with ZipFile(file_name,'r') as zip :
+  				       	  		zip.extractall()
+                                          		print('Done') 
 	
 	
 	
